@@ -2,7 +2,7 @@
 const body = document.querySelector('body');
 const btn = document.querySelector('#btn');
 
-const randomColor = () => Math.floor(Math.random() * 257);
+const randomColor = () => Math.floor(Math.random() * 256);
 
 const changeColor = () =>{
     body.style.backgroundColor = (`rgb(${randomColor()}, ${randomColor()}, ${randomColor()})`)
